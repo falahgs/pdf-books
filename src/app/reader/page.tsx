@@ -176,6 +176,7 @@ export default function Reader() {
           padding: '12px 24px',
         },
       });
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (_) {
       toast.error('Failed to copy text', {  
         duration: 2000,
